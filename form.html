@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style/nav.css" />
+    <style>
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="semantic.html">Semantic</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="audio-video.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Form create by HTML</h1>
+    <form>
+      <label for="name"
+        >Your Name
+        <input type="text" id="name" placeholder="Your Name" />
+      </label>
+      <label for="email"
+        >Your email
+        <input type="email" id="email" placeholder="Your Email" />
+      </label>
+      <label for="phone">
+        Your Mobile Number
+        <input type="number" id="number" placeholder="Your Mobile Number" />
+      </label>
+      <fieldset>
+        <legend>One selection form</legend>
+        <label for="chitoi">
+          <input type="radio" name="pitha" id="chitoi" />
+          chitoi
+        </label>
+        <label for="vhapa">
+          <input type="radio" name="pitha" id="vhapa" />
+          vhapa
+        </label>
+        <label for="ruti">
+          <input type="radio" name="pitha" id="ruti" />
+          ruti
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Multiple selecton form</legend>
+        <label for="sorisa">
+          <input type="checkbox" name="vorta" id="sorisa" />
+          sorisa
+        </label>
+        <label for="alu">
+          <input type="checkbox" name="vorta" id="alu" />
+          alu vorta
+        </label>
+        <label for="dhoinna">
+          <input type="checkbox" name="vorta" id="dhoinna" />
+          dhoinna
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Comments box</legend>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+      </fieldset>
+      <input type="submit" value="Reset" />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
